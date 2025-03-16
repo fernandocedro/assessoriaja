@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --cor-principal: #FF0000;
+    --cor-primaria: #134596;
+    --cor-secundaria: #000000;
+    --corterciaria: #d1d1d1;
+
+}
+
+
+body {
+    background-color: var(--corterciaria);
+    font-family: "Funnel Sans", sans-serif;
+}
+
+.logo-principal {
+    width: 130px;
+    margin-right: 50px;
+}
+
+.header_menu {
+    display: flex;
+    padding: 15px 250px ;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--corterciaria);
+    gap: 20px;
+    background-color: var(--cor-secundaria);
+    }
+
+    .menu-principal a {
+        font-family: "Funnel Sans", sans-serif;
+        text-decoration: none;
+        color: var(--corterciaria);
+    }
+
+    .menu-principal a:hover {
+        color: var(--cor-principal);
+        text-decoration: none;
+    }
+
+    .atividades {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin: 30px 0 0 0;
+    }
+
+    .card-atividades {
+        background-color: var(--cor-principal);
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    h5 {
+        color: var(--corterciaria);
+        font-weight: 300;
+    }
+
+    h3 {
+        color: var(--cor-principal);
+    }
+
+    p {
+        color: var(--cor-secundaria);
+    }
+
+    .joseAudi {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+
+    .equipe-excelencia {
+        display: flex;
+        gap: 15px;
+        padding: 150px 20% 150px 20% ;
+        background-color: var(--cor-secundaria);
+    }
+
+    .card-time {
+        background-color: var(--corterciaria);
+        padding: 10px;
+    }
+
+.time {
+    color: var(--corterciaria);
+
+}
+
+.equipe-pcture {
+    width: 55%;
+}
+    
+/* Swiper clientes*/
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .nossosClientes {
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    color: var(--cor-principal);
+    margin-top: 80px;
+  }
+
+ .clientes {
+    padding: 50px;
+    margin: 50px 25px 50px 25px;
+    filter: grayscale(100%);
+ }
+
+ .clientes:hover {
+    padding: 50px;
+    margin: 50px 25px 50px 25px;
+    filter: grayscale(0%);    
+ }
+ 
+ .contactForm {
+    display: flex;
+    color: #fff;
+    background-color: var(--cor-principal);
+    gap: 3%;
+ }
+
+
+ .contatoForm-size {
+    padding: 5%;
+    width: 50%;
+    margin: 0 0 0 100px;
+
+ }
+
+ .contato-adress {
+    font-size:25px;
+    font-weight: 600;
+    padding: 60px 0 0 0;
+    color: #fff;
+ }
+
+ .contatoText {
+    color: #fff;
+ }
+
+ .btn-primary {
+    color: #fff;
+    background-color: var(--cor-secundaria);
+    border-color: var(--cor-principal);
+}
+
+.redes {
+    font-size: 35px;
+}
+
+.rodaPe {
+    display: flex;
+    margin: 80px 0 80px 0;
+    justify-content: center;
+    gap: 100px;
+}
+
+.rodaPe a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.rodaPe a:hover {
+    text-decoration: none; 
+    color: red; 
+}
+
+.assinatura {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0 40px 0;
+}
+
+.textAssinatura {
+    color: var(--cor-secundaria);
+    margin-top: 15px;
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
+    width: 60px;
+    height: 60px;
+    background-color: var(--corterciaria);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    z-index: 2;
+}
+
+.whatsapp-float img {
+    width: 60px;
+    height: 60px;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
