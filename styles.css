@@ -233,3 +233,120 @@ body {
 .whatsapp-float:hover {
     transform: scale(1.1);
 }
+
+.quemSomos-capa{
+    width: 100%;
+    filter: opacity(30%);
+}
+
+.quemSomos-descricao {
+    display: flex;
+    margin: 50px 200px 0 200px;
+    align-items: center;
+    gap: 20px;
+}
+
+.quemSomos-logo {
+    background-color: #d1d1d1;
+    
+   
+}
+
+.QuemSomos-grupo {
+    display: flex;
+    padding: 40px 200px 0 200px;
+    gap: 50px;
+}
+
+.quemSomos-frase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px ;
+    background-color: var(--cor-secundaria);
+    text-align: center;
+    color: #fff;
+    padding: 13%;
+}
+
+.quemSomos-fale {
+    background-color: var(--cor-principal);
+    margin-top: 15PX;
+    padding: 20px;
+    width: 20%;
+    border-radius: 20px;    
+}
+
+.quemSomos-fale:hover {
+    background-color: transparent;
+    cursor: pointer;
+    outline: 2px solid var(--cor-principal);
+     
+}
+
+.quemSomos-fale-link {
+    text-decoration: none;
+    font: inherit;
+    color: inherit;
+    box-sizing: border-box;
+}
+
+.quemSomos-fale-link:hover {
+    text-decoration: none;
+    font: inherit;
+    color: inherit;
+    
+}
+
+.oqueFazemos-grupo {
+    display: flex;
+    margin-top: 50px;
+    background-color: var(--cor-secundaria);
+    padding: 40px 200px 40px 200px;
+    gap: 50px;
+}
+
+.oqueFazemos-grupo-2 {
+    display: flex;
+    background-color: var(--cor-secundaria);
+    padding: 40px 200px 40px 200px;
+    gap: 50px;
+}
+
+.oqueFazemos-titulo-video,
+.oqueFazemos-video {
+    text-align: center;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.oqueFazemos-topic {
+    color: var(--corterciaria);
+}
+
+.nossosClientes {
+    display: flex;
+    margin: 50px 150px 0 150px;
+    gap: 20px;
+}
+    
+    .nossosClientes-descricao {
+        border: solid 1px var(--cor-principal);
+        border-radius: 15px;
+    }
+    
+    .nossosClientes-descricao p {
+        font-weight: 5;
+        font-size: 18px;
+    }    
+
+
+.logo-notus-clientes {
+    width: 40%;
+}
+
+.contato-form {
+    margin: 80px 150px 0 150px;
+}
