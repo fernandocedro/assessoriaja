@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="shortcut icon" type="image/jpg" href="./img/fav.jpg"/> 
 
 
@@ -22,6 +22,9 @@
         <nav class="menu-principal"><a href="o-que-fazemos.html">O QUE FAZEMOS</a></nav>
         <nav class="menu-principal"><a href="nossos-clientes.html">NOSSOS CLIENTES</a></nav>
         <nav class="menu-principal"><a href="contato.html">CONTATO</a></nav>
+        <div class="menu-hamburguer">
+            <div class="hamburguer"><i class="fa-solid fa-bars"></i></div>
+        </div>
     </header>
     <main>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -54,24 +57,23 @@
             <section class="atividades">
                 <div class="card-atividades">
                     <h5><i class="fa-solid fa-shield-halved"></i> SEGURANÇA DO TRABALHO</h5>
-                    <p class="text-card"><b><li>Prevenção e proteção contra incendios.</li></b><br>
-                    <li><b>Atendimento em áreas hospitalares,  
-                        residenciais, comerciais e industriais</b></li><br> 
-                        <li><b>Análise e orientação técnica para prevenção re riscos 
-                           </b></li> 
-                        
-                   </p>
+                    <hr>
+                    <p><b>Prevenção e proteção contra incendios.</b><br></p>
+                    <p><b>Atendimento em áreas hospitalares, residenciais, comerciais e industriais</b></p> 
+                    <p><b>Análise e orientação técnica para prevenção re riscos</b></p>
                 </div>
                 <div class="card-atividades">
                     <h5><i class="fa-solid fa-certificate"></i> VISTORIA E CERTIFICAÇÃO</h5>
-                    <p><li><b>Realiação de vistorias e auto-vistorias (CLCB/AVCB) </b></li> </p>
+                    <hr>
+                    <p><b>Realiação de vistorias e auto-vistorias (CLCB/AVCB) </b> </p>
                 </div>
                 <div class="card-atividades">
                     <h5><i class="fa-solid fa-chalkboard-user"></i> TREINAMENTOS E CURSOS</h5>
-                    <p><li><b>Bombeiro civil profissional</b></li>
-                    <li><b>Treinameto para brigadas de incêndio </b></li>
-                    <li><b>NR´s e outros cursos livres</b></li>
-                    <li><b>Educação continuada para capacitação técnica</b></li>
+                    <hr>
+                    <p><b>Bombeiro civil profissional</b>
+                    <p><b>Treinameto para brigadas de incêndio </b></p>
+                    <p><b>NR´s e outros cursos livres</b></p>
+                    <p><b>Educação continuada para capacitação técnica</b></p>
         
                 </div>
             </section>
@@ -81,24 +83,24 @@
                     <h3>
                         SEJA BEM VINDO A JA ASSESSORIA
                     </h3>
-                    <h5>
+                    <h4>
                         Meu nome é <strong> José Audi, </strong> fundador da JA Assessoria. <br>
                         estamos no mercado atendendo a pequenas, medias e <br>
                         grandes indústrias, ajudando a desenvolver uma  <br>
                         cultura de segurança e bem-estar no ambiente <br>
                         de trabalho.
-                    </h5>
-                    <h5>
+                    </h4>
+                    <h4>
                         Desde 2018, tenho orgulho de já ter ajudado  <br>
                         diversas empresas na identificação de riscos,elaboração <br>
                         de plano ação e prevenção de acidenes.     <br>
-                    </h5>
-                    <h5>
+                    </h4>
+                    <h4>
                         Seja bem vindo ao meu mundo o mundo - o mundo onde a <br>
                         segurança vem em primeiro lugar! <br>
-                    </h5>
+                    </h4>
                 </div>
-                <img src="./img/joseAudi.png" alt="imagem do José Audi">
+                <img class="joseAudiaditoria" src="./img/joseAudi.png" alt="imagem do José Audi">
             </section>
 
 
@@ -125,18 +127,26 @@
 
             </section>
 
-                            <!-- Swiper -->
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img class="clientes" src="./img/logo-notus.jpg"></div>
-                    <div class="swiper-slide"><img class="clientes" src="./img/mset.jpg"></div>
-                    <div class="swiper-slide"><img class="clientes" src="./img/prociv.jpg"></div>
-                    <div class="swiper-slide"><img class="clientes" src="./img/da-mata.jpg"></div>
-                    <div class="swiper-slide"><img class="clientes" src="./img/alelos-estofados.jpg"></div>
-                    <div class="swiper-slide"><img class="clientes" src="./img/dayco.jpg"></div>
-                    </div>
-                    <!-- <div class="swiper-pagination"></div> -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img class="clientes" src="./img/logo-notus.jpg" /></div>
+                  <div class="swiper-slide"><img class="clientes" src="./img/7nuviq.jpg" /></div>
+                  <div class="swiper-slide"><img class="clientes" src="./img/alelos-estofados.jpg" /></div>
+                  <div class="swiper-slide"><img class="clientes" src="./img/da-mata.jpg" /></div>
+                  <div class="swiper-slide"><img class="clientes" src="./img/dayco.jpg" /></div>
+                  <div class="swiper-slide"><img class="clientes" src="./img/mset.jpg" /></div>
+                  <div class="swiper-slide"><img class="clientes" src="./img/logo-notus.jpg" /></div>
+                  <div class="swiper-slide"><img class="clientes" src="./img/7nuviq.jpg" /></div>
+                  <div class="swiper-slide"><img class="clientes" src="./img/alelos-estofados.jpg" /></div>
+                  <div class="swiper-slide"><img class="clientes" src="./img/da-mata.jpg" /></div>
+                  <div class="swiper-slide"><img class="clientes" src="./img/dayco.jpg" /></div>
+                  <div class="swiper-slide"><img class="clientes" src="./img/mset.jpg" /></div>
+                  
                 </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>    
+              
 
                 <section class="contactForm">
                     <div class="contatoForm-size">
@@ -152,19 +162,19 @@
                         </form>
                         <button type="submit" class="btn btn-dark">ENVIAR</button>
                     </div>
-                    <div>
+                    <div class="enderecoPrincipal">
                         <p class="contato-adress">
                             Contato
                         </p>
                         <p class="contatoText">
-                            <i class="fa-solid fa-phone-volume"></i>  11 0000-0000<br>
-                            <i class="fa-brands fa-square-whatsapp"></i> +55 11 90000-0000<br>
+                            <i class="fa-solid fa-phone-volume"></i>  11 93707-5282<br>
+                            <i class="fa-brands fa-square-whatsapp"></i> +55 11 93707-5282<br>
                             <i class="fa-solid fa-envelope"></i> contato@assessoriaja.com.br<br>
                         </p>
                         <div>
-                            <i class="fa-brands fa-whatsapp redes"></i>
-                            <i class="fa-brands fa-square-instagram redes"></i>
-                            <i class="fa-brands fa-square-youtube redes"></i>
+                            <a class="redesLink" href="https://wa.me/5511937075282" target="_blank"><i class="fa-brands fa-whatsapp redes"></i></a>
+                            <a class="redesLink" href="https://instagram.com" target="_blank"> <i class="fa-brands fa-square-instagram redes"></i>
+                            <a class="redesLink" href="https:/youtube.com" target="_blank"><i class="fa-brands fa-square-youtube redes"></i>
                         </div>
                     </div>
                 </section>
@@ -208,20 +218,38 @@
     <script type="module"></script>
        
      <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+     <script>
+        var swiper = new Swiper(".mySwiper", {
+          loop: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          slidesPerView: 1,
+          spaceBetween: 10,
+          breakpoints: {
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
+            1024: {
+              slidesPerView: 4,
+              spaceBetween: 40,
+            },
+          },
+        });
+      </script>
+      
 
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 4,
-      spaceBetween: 30,
-      centeredSlides: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-  </script>
 
 </body>
 </html>
