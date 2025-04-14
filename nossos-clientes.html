@@ -13,19 +13,28 @@
     <title>JA ASSESSORIA | SEGURANÇA DO TRABALHO</title>
 </head>
 <body>
-    <header class="header_menu">
-        <div>
-           <a href="index.html"><img class="logo-principal" src="./img/branco-e-vermelho-1536x1536.png"></a>
-        </div>
-        <nav class="menu-principal"><a href="index.html">HOME</a></nav>
-        <nav class="menu-principal"><a href="quem-somos.html">QUEM SOMOS</a></nav>
-        <nav class="menu-principal"><a href="o-que-fazemos.html">O QUE FAZEMOS</a></nav>
-        <nav class="menu-principal"><a href="nossos-clientes.html">NOSSOS CLIENTES</a></nav>
-        <nav class="menu-principal"><a href="contato.html">CONTATO</a></nav>
-        <div class="menu-hamburguer">
-          <div class="hamburguer"><i class="fa-solid fa-bars"></i></div>
+  <header class="header_menu">
+    <div>
+       <a href="index.html"><img class="logo-principal" src="./img/branco-e-vermelho-1536x1536.png"></a>
+    </div>
+    <nav class="menu-principal"><a href="index.html">HOME</a></nav>
+    <nav class="menu-principal"><a href="quem-somos.html">QUEM SOMOS</a></nav>
+    <nav class="menu-principal"><a href="o-que-fazemos.html">O QUE FAZEMOS</a></nav>
+    <nav class="menu-principal"><a href="nossos-clientes.html">NOSSOS CLIENTES</a></nav>
+    <nav class="menu-principal"><a href="contato.html">CONTATO</a></nav>
+    <div class="menu-hamburguer">
+      <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+    
+      <!-- menu escondido vem logo aqui dentro -->
+      <div class="menu-escondido" id="menu-escondido">
+        <a class="menuEscondido" href="index.html">HOME</a>
+        <a class="menuEscondido" href="quem-somos.html">QUEM SOMOS</a>
+        <a class="menuEscondido" href="o-que-fazemos.html">O QUE FAZEMOS</a>
+        <a class="menuEscondido" href="nossos-clientes.html">NOSSOS CLIENTES</a>
+        <a class="menuEscondido" href="contato.html">CONTATO</a>
       </div>
-    </header>
+    </div>
+</header>
     <main>
         <section>
             <img class="quemSomos-capa" src="./img/capa.jpg">
@@ -76,7 +85,7 @@
           <section class="quemSomos-frase">
             <h1>"Agende uma visita conosco, nos teremos o prazer de tomar um café com você!"</h1>
                 <div class="quemSomos-fale">
-                    <a class="quemSomos-fale-link" href="#">Fale conosco</a>
+                    <a class="quemSomos-fale-link" href="contato.html">Fale conosco</a>
                 </div>
         </section> 
 
@@ -119,7 +128,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script type="module"></script>
+    <script src="./script.js"></script>
        
      <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

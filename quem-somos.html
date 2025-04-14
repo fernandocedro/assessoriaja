@@ -15,7 +15,7 @@
 <body>
     <header class="header_menu">
         <div>
-            <a href="index.html"><img class="logo-principal" src="./img/branco-e-vermelho-1536x1536.png"></a>
+           <a href="index.html"><img class="logo-principal" src="./img/branco-e-vermelho-1536x1536.png"></a>
         </div>
         <nav class="menu-principal"><a href="index.html">HOME</a></nav>
         <nav class="menu-principal"><a href="quem-somos.html">QUEM SOMOS</a></nav>
@@ -23,7 +23,16 @@
         <nav class="menu-principal"><a href="nossos-clientes.html">NOSSOS CLIENTES</a></nav>
         <nav class="menu-principal"><a href="contato.html">CONTATO</a></nav>
         <div class="menu-hamburguer">
-            <div class="hamburguer"><i class="fa-solid fa-bars"></i></div>
+          <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        
+          <!-- menu escondido vem logo aqui dentro -->
+          <div class="menu-escondido" id="menu-escondido">
+            <a class="menuEscondido" href="index.html">HOME</a>
+            <a class="menuEscondido" href="quem-somos.html">QUEM SOMOS</a>
+            <a class="menuEscondido" href="o-que-fazemos.html">O QUE FAZEMOS</a>
+            <a class="menuEscondido" href="nossos-clientes.html">NOSSOS CLIENTES</a>
+            <a class="menuEscondido" href="contato.html">CONTATO</a>
+          </div>
         </div>
     </header>
     <main>
@@ -74,7 +83,7 @@
                 <section class="quemSomos-frase">
                     <h1>"Segurança no trabalho não é um custo, é um investimento na vida e no bem-estar de todos."</h1>
                         <div class="quemSomos-fale">
-                            <a class="quemSomos-fale-link" href="#">Fale conosco</a>
+                            <a class="quemSomos-fale-link" href="contato.html">Fale conosco</a>
                         </div>
                 </section> 
 
@@ -110,7 +119,7 @@
         <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
     </a>
 
-    
+    <script src="./script.js"></script>
        
    
  

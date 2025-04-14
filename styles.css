@@ -444,8 +444,52 @@ body {
     margin: 0 auto;
 }
 
+.menu-hamburguer {
+    position: relative; /* Referência para posicionar o menu */
+    z-index: 2; /* Garante que fique acima do menu */
+  }
+  
+  .menu-escondido {
+    display: none;
+    position: absolute; /* Permite posicionar em relação ao hambúrguer */
+    background-color: black;
+    padding: 10px;
+    top: 100%; /* Exatamente embaixo do .menu-hamburguer */
+    right: 0;
+    z-index: 1;
+    text-align: right;
+    white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+    text-decoration: none;
+    font: inherit;
+  }
+  
+  .menu-escondido.ativo {
+    display: flex;
+    flex-direction: column;
+  }
 
+  .menuEscondido {
+    text-decoration: none;
+    font: inherit;
+    color: var(--corterciaria);
+  }
 
+  
+  .menuEscondido:hover {
+    text-decoration: none;
+    font: inherit;
+    color: var(--cor-principal);
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+    padding: 0 200px 0 200px;
+}
 
 /* responsividade */
 
