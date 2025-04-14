@@ -521,6 +521,7 @@ body {
     .fa-bars {
         color: var(--corterciaria);
         font-size: 30px;
+        cursor: pointer;
     }
 
     .card-group {
