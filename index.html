@@ -161,36 +161,43 @@
               </div>    
               
 
-                <section class="contactForm">
-                    <div class="contatoForm-size">
-                        <form class="form-groupAll">
-                            <div class="form-group">
-                              <label for="exampleFormControlInput1">Email</label>
-                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                            </div>
-                            <div class="form-group">
-                              <label for="exampleFormControlTextarea1">Texto</label>
-                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                        </form>
-                        <button type="submit" class="btn btn-dark">ENVIAR</button>
+              <section class="contactForm">
+                <div class="contatoForm-size">
+                  <form class="form-groupAll" action="https://formsubmit.co/joseaudipazsouza@gmail.com" method="POST">
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Email</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com" required>
                     </div>
-                    <div class="enderecoPrincipal">
-                        <p class="contato-adress">
-                            Contato
-                        </p>
-                        <p class="contatoText">
-                            <i class="fa-solid fa-phone-volume"></i>  11 93707-5282<br>
-                            <i class="fa-brands fa-square-whatsapp"></i> +55 11 93707-5282<br>
-                            <i class="fa-solid fa-envelope"></i> contato@assessoriaja.com.br<br>
-                        </p>
-                        <div>
-                            <a class="redesLink" href="https://wa.me/5511937075282" target="_blank"><i class="fa-brands fa-whatsapp redes"></i></a>
-                            <a class="redesLink" href="https://www.instagram.com/joseaudipazdesouza/" target="_blank"> <i class="fa-brands fa-square-instagram redes"></i>
-                            <a class="redesLink" href="https:/youtube.com" target="_blank"><i class="fa-brands fa-square-youtube redes"></i>
-                        </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Texto</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="3" required></textarea>
                     </div>
-                </section>
+              
+                    <!-- Campos ocultos para configurações extras -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://www.assessoriaja.com/obrigado.html"> <!-- Página de obrigado após envio -->
+              
+                    <button type="submit" class="btn btn-dark">ENVIAR</button>
+                  </form>
+                </div>
+              
+                <div class="enderecoPrincipal">
+                  <p class="contato-adress">
+                    Contato
+                  </p>
+                  <p class="contatoText">
+                    <i class="fa-solid fa-phone-volume"></i>  11 93707-5282<br>
+                    <i class="fa-brands fa-square-whatsapp"></i> +55 11 93707-5282<br>
+                    <i class="fa-solid fa-envelope"></i> contato@assessoriaja.com.br<br>
+                  </p>
+                  <div>
+                    <a class="redesLink" href="https://wa.me/5511937075282" target="_blank"><i class="fa-brands fa-whatsapp redes"></i></a>
+                    <a class="redesLink" href="https://www.instagram.com/joseaudipazdesouza/" target="_blank"><i class="fa-brands fa-square-instagram redes"></i></a>
+                    <a class="redesLink" href="https://youtube.com" target="_blank"><i class="fa-brands fa-square-youtube redes"></i></a>
+                  </div>
+                </div>
+              </section>
+              
                     
 
     </main>
